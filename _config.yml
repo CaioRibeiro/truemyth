@@ -2,7 +2,7 @@ name: " 3"
 description: " "
 
 url: "http://localhost:4000" 
-baseurl: "/Movie-Website-of-Caio"
+baseurl: "/truemyth"
 
 paginate: 30 
 
