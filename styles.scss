@@ -1,0 +1,391 @@
+$header-font: futura;//'Just Another Hand', Helvetica, sans-serif;//'Cookie', Helvetica, sans-serif; // Google font 'Cookie'
+$nav-font: 'Just Another Hand', Helvetica, sans-serif; // Google font 'Tangerine'
+$text-font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;//Arial, "Helvetica neue", Helvetica, sans-serif; //Georgia, Times, "Times New Roman", serif;//Cambria, Georgia, serif; //For all the text 
+$quote-text-font: 'Cookie', Helvetica, sans-serif;//$header-font: Papyrus, fantasy;
+
+$background-color: #060606;//#333;black
+$content-text-color: #999999;//white;
+$highlight-color: white;//#ff9900;orange
+
+
+$page-padding: 80px 25px;
+$letter-spacing: 0.5px;
+
+$upper-font-size: 300%; 
+$lower-font-size: 150%;
+
+$line-height: 160%;
+
+
+
+body {
+  font-size: 100%;
+}
+
+
+
+#home {
+  width: 100%;
+  height: 100%;
+  background: black;
+  padding-top: 20px;
+  
+  nav {
+    font-family: $nav-font;
+    ul {
+      padding-top: 50px;
+      display: inline-block;
+      list-style-type: none;
+
+  
+      li{
+        font-size: 4vw;
+        font-size: 4vh;
+        //font-size: 3em;
+        text-align: left;
+        a{
+          display: block;
+          line-height: 120%;
+          padding: 1em 0.5em;
+          color: $content-text-color;        
+        }
+      }
+    }  
+  }
+}
+
+.navbar {
+  background: transparent !important;
+  border: transparent;
+  
+}
+
+
+
+
+#biography {
+  font-family: $text-font;
+  font-size: 1.7em;
+  color: $content-text-color;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  
+
+  h2 {
+    //font-size: 6em;
+    font-size: 11vw;
+    
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: white;
+    font-family: $nav-font; //'LeagueGothicRegular'; -- looks pretty good too
+    // -webkit-text-stroke: 5px white; -- outlined text only work in Chrome
+  
+  }
+  a {
+    font-family: $header-font;
+    color: white;
+  }
+
+  img {
+
+    max-height: 100%; 
+  }
+
+  .space_140 {
+    padding-top: 140px;
+  }
+
+  .space_30 {
+    padding-top: 30px;
+  }
+}
+
+
+#sometime_in_august {
+  img {
+    max-height: 100%;
+  }
+  h2 {
+    font-size: 10vw;
+    font-size: 15vh;
+    font-family: $nav-font;
+    color: white;
+  }
+
+  h5 {
+    font-size: 2vw;
+    font-size: 3vh;
+    padding: 4vh;
+    color: $content-text-color;
+  }
+  .comment_group {
+    ul {
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 1vw;
+        padding: 0.5vh;
+      }
+    }  
+  }
+  
+
+  blockquote {
+    p {
+    font-family: $quote-text-font;
+    text-align: center; 
+    font-size: 4.5vw;
+    font-size: 6vh;
+    padding-top: 50px;
+    color: $content-text-color;
+    } 
+    footer {
+    float: right;
+      a {
+        font-family: $header-font;
+        font-size: 16px;
+        color: lighten($highlight-color, 10%);
+      }
+    }
+  }
+  
+}
+
+#letters_from_monte {
+  h2 {
+    font-family: $nav-font;
+    font-size: 18vw;
+    font-size: 18vh;
+    color: white;
+  }
+  h5 {
+    font-size: 4vw;
+    font-size: 4vh;
+    padding-top: 5vh;
+    color: $content-text-color;
+  } 
+
+  blockquote {
+    p {
+    font-family: $quote-text-font;
+    text-align: center; 
+    font-size: 5vh;
+    font-size: 7vw;
+    color: $content-text-color;
+    } 
+    footer {
+    float: right;
+      a {
+        font-family: $header-font;
+        font-size: 16px;
+        color: lighten($highlight-color, 10%);
+      }
+    }
+  }
+  span {
+    padding-top: 6vh;
+    
+  }
+
+  .comment_group {
+    padding-top: 3vh;
+    table td {
+    border: 0.5vw;
+    padding: 2vh;
+    padding: 1vw;
+    }
+  }
+}
+
+#two_lovers {
+  
+  h2 {
+    font-size: 18vw;
+    font-size: 19vh;
+    font-family: $nav-font;
+    color: white;
+  }
+  img {
+   
+    max-height: 100%;
+  }
+
+  h5{ 
+    padding: 2vh;
+    font-size: 10vh;
+    font-size: 1.5vw;
+    color: $content-text-color;
+  }
+  .comment_group {
+    padding: 3vh;
+    
+    ul {
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 1vh;
+        a {
+
+        }
+      }
+    }
+  }
+
+}
+
+#the_realm  {
+
+  h2 {
+    font-size: 10vh;
+    font-size: 10vw;
+    font-family: $nav-font;
+    color: white;
+  }
+
+  h4 {
+    color: black;
+    font-family: $nav-font;
+
+  }   
+
+  h5 {
+    font-size: 1vh;
+    font-size: 1.5vw;
+
+  }
+  p {
+    font-size: 1.5em;
+    color: black;
+    font-family: $text-font;
+  }
+
+  .pictures_display {
+    padding-top: 2vh;
+  }
+  
+  a {
+    z-index: 100;
+  }
+}
+
+
+
+#borges_obscurus {
+  p {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .extra_padding p {
+    padding-top: 30px;  
+  }
+
+  img {
+    max-height: 100%;
+    height: 300px;
+    width: 250px;
+  }
+ 
+  a {
+    font-size: 5vw;
+    font-size: 4vh;
+    font-family: $nav-font;
+  }
+
+  .panel-body {
+  background: black;
+  color: white;
+  }
+
+  .panel-footer {
+    color: black;
+    font-size: 12px;
+  }
+
+  .thumbnail {
+    background: black;
+    border: none;
+  }
+  .white_glow {
+    // -moz-box-shadow: 0 0 5px #fff;
+    // -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 70px 70px 50px #fff;
+  }
+}
+
+#contact_page {
+  font-size: 1.5em;
+}
+
+
+.vidoe_pages {
+  background: black;
+  opacity: 0.95;
+
+  text-align: center; 
+  padding: $page-padding;
+
+  iframe {
+  height: 100%;
+  width: 100%;
+
+  }
+}
+
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content_pages {
+  background: black;
+  color: white;
+  padding: $page-padding;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  font-family: $text-font;
+
+
+
+  h2 {
+    font-family: $header-font;
+    color: #ff9900;
+  }
+  
+  h4 {
+    font-family: $header-font;
+    font-size: 7vw;
+    font-size: 6vh;
+  }
+  
+  .bottom-icons {
+    float: center; 
+    button {
+    padding: 0.5em;
+    }
+  }
+  
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+.highlight {
+  color: $highlight-color !important; 
+  font-size: 5vw;
+  font-size: 5vh;
+  color: black;
+}
