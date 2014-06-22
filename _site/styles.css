@@ -150,7 +150,7 @@ body {
 
 #borges_obscurus p {
   font-size: 1.5em;
-  color: white; }
+  color: black; }
 #borges_obscurus .extra_padding p {
   padding-top: 30px; }
 #borges_obscurus img {
@@ -162,16 +162,13 @@ body {
   font-size: 4vh;
   font-family: "Just Another Hand", Helvetica, sans-serif; }
 #borges_obscurus .panel-body {
-  background: black;
-  color: white; }
+  background: white; }
 #borges_obscurus .panel-footer {
   color: black;
   font-size: 12px; }
 #borges_obscurus .thumbnail {
   background: black;
   border: none; }
-#borges_obscurus .white_glow {
-  box-shadow: 70px 70px 50px #fff; }
 
 #contact_page {
   font-size: 1.5em; }

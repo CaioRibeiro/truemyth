@@ -273,7 +273,7 @@ body {
 #borges_obscurus {
   p {
     font-size: 1.5em;
-    color: white;
+    color: black;
   }
 
   .extra_padding p {
@@ -293,9 +293,8 @@ body {
   }
 
   .panel-body {
-  background: black;
-  color: white;
-  }
+  background: white;
+  } 
 
   .panel-footer {
     color: black;
@@ -306,11 +305,7 @@ body {
     background: black;
     border: none;
   }
-  .white_glow {
-    // -moz-box-shadow: 0 0 5px #fff;
-    // -webkit-box-shadow: 0 0 5px #fff;
-    box-shadow: 70px 70px 50px #fff;
-  }
+
 }
 
 #contact_page {
