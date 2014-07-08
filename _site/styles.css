@@ -64,10 +64,8 @@ html, body {
   color: #999999; }
 #sometime_in_august p {
   font-size: 17px; }
-#sometime_in_august .comment_group ul li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 2px; }
+#sometime_in_august .comment_group table td {
+  padding: 10px; }
 #sometime_in_august blockquote p {
   font-family: "Cookie", Helvetica, sans-serif;
   text-align: center;

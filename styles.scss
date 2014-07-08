@@ -156,15 +156,9 @@ html,body
     font-size: $p-font-size;
   }
   .comment_group {
-    ul {
-      li {
-        display: inline-block;
-        list-style-type: none;
-        // padding: 1vw;
-        // padding: 0.5vh;
-        padding: 2px;
-      }
-    }  
+    table td {
+      padding: 10px;
+    }
   }
   
 
