@@ -22,11 +22,13 @@
 
   <!-- my css -->
   <link rel="stylesheet" type="text/css" href="/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/normalize.css"/>
 
   <!-- js of bootstrap and waypoint -->
   
   <script src="/jquery-2.0.3.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
+
   <script src="/waypoints/waypoints.min.js"></script>
   <script src="/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
 
@@ -35,7 +37,13 @@
 
   <!-- favicon --> 
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="/jquery.fittext.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+            $("body").fitText();
+    });
+  </script>
 
   <!-- Put it back into the_config.yml file in order to use jekyll serve - - baseurl ''
   baseurl: "/Movie-Website-of-Caio" -->
