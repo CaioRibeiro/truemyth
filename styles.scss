@@ -7,32 +7,40 @@ $background-color: #060606;//#333;black
 $content-text-color: #999999;//white;
 $highlight-color: white;//#ff9900;orange
 
-
+$h2-font-size: 160px;
+$h2-s-font-size: 140px;
+$h2-sx-font-size: 110px;
+$h4-font-size: 40px;
+$h5-font-size: 20px;
+$h5-b-font-size: 30px;
+$p-font-size: 17px;
+$blockquote-font-size: 50px;
+$blockquote-b-font-size: 70px;
 $page-padding: 80px 25px;
 $letter-spacing: 0.5px;
 
 $upper-font-size: 300%; 
 $lower-font-size: 150%;
 
-$line-height: 160%;
 
-@media all and (max-width: 1200px) { /* screen size until 1200px */
-  body {
-      font-size: 1.5em; /* 1.5x default size */
-  }
-}
 
-@media all and (max-width: 1000px) { /* screen size until 1000px */
-  body {
-      font-size: 1.2em; /* 1.2x default size */
-      }
-}
+// @media all and (max-width: 1200px) { /* screen size until 1200px */
+//   body {
+//       font-size: 1.5em; /* 1.5x default size */
+//   }
+// }
 
-@media all and (max-width: 500px) { /* screen size until 500px */
-  body {
-      font-size: 0.8em; /* 0.8x default size */
-      }
-}
+// @media all and (max-width: 1000px) { /* screen size until 1000px */
+//   body {
+//       font-size: 1.2em; /* 1.2x default size */
+//       }
+// }
+
+// @media all and (max-width: 500px) { /* screen size until 500px */
+//   body {
+//       font-size: 0.8em; /* 0.8x default size */
+//       }
+// }
 
 body {
   font-size: 100%;
@@ -55,14 +63,15 @@ body {
 
   
       li{
-        font-size: 4vw;
-        font-size: 4vh;
-        //font-size: 3em;
+        // font-size: 4vw;
+        // font-size: 4vh;
+        font-size: $h5-b-font-size;
         text-align: left;
         a{
           display: block;
           line-height: 120%;
-          padding: 1em 0.5em;
+          // padding: 1em 0.5em;
+          padding: 35px 5px;
           color: $content-text-color;        
         }
       }
@@ -81,15 +90,13 @@ body {
 
 #biography {
   font-family: $text-font;
-  font-size: 1.7em;
+  font-size: $p-font-size;
   color: $content-text-color;
-  line-height: $line-height;
   letter-spacing: $letter-spacing;
   
 
   h2 {
-    //font-size: 6em;
-    font-size: 11vw;
+    font-size: $h2-font-size;
     
     text-shadow: 0px 1px 1px #4d4d4d;
     color: white;
@@ -122,25 +129,32 @@ body {
     max-height: 100%;
   }
   h2 {
-    font-size: 10vw;
-    font-size: 15vh;
+    // font-size: 10vw;
+    // font-size: 15vh;
+    font-size: $h2-s-font-size;
     font-family: $nav-font;
     color: white;
   }
 
   h5 {
-    font-size: 2vw;
-    font-size: 3vh;
-    padding: 4vh;
+    // font-size: 2vw;
+    // font-size: 3vh;
+    font-size: $h5-font-size;
+    //padding: 4vh;
+    padding: 15px;
     color: $content-text-color;
+  }
+  p {
+    font-size: $p-font-size;
   }
   .comment_group {
     ul {
       li {
         display: inline-block;
         list-style-type: none;
-        padding: 1vw;
-        padding: 0.5vh;
+        // padding: 1vw;
+        // padding: 0.5vh;
+        padding: 2px;
       }
     }  
   }
@@ -150,16 +164,16 @@ body {
     p {
     font-family: $quote-text-font;
     text-align: center; 
-    font-size: 4.5vw;
-    font-size: 6vh;
-    padding-top: 50px;
+    font-size: $blockquote-font-size;//4.5vw;
+    // font-size: 6vh;
+    padding-top: 30px;
     color: $content-text-color;
     } 
     footer {
     float: right;
       a {
         font-family: $header-font;
-        font-size: 16px;
+        font-size: $p-font-size;
         color: lighten($highlight-color, 10%);
       }
     }
@@ -170,14 +184,17 @@ body {
 #letters_from_monte {
   h2 {
     font-family: $nav-font;
-    font-size: 18vw;
-    font-size: 18vh;
+    // font-size: 18vw;
+    // font-size: 18vh;
+    font-size: $h2-s-font-size;
     color: white;
   }
   h5 {
-    font-size: 4vw;
-    font-size: 4vh;
-    padding-top: 5vh;
+    // font-size: 4vw;
+    // font-size: 4vh;
+    font-size:$h5-b-font-size;
+    // padding-top: 5vh;
+    padding: 10px;
     color: $content-text-color;
   } 
 
@@ -185,15 +202,16 @@ body {
     p {
     font-family: $quote-text-font;
     text-align: center; 
-    font-size: 5vh;
-    font-size: 7vw;
+    // font-size: 5vh;
+    // font-size: 7vw;
+    font-size: $blockquote-b-font-size;
     color: $content-text-color;
     } 
     footer {
     float: right;
       a {
         font-family: $header-font;
-        font-size: 16px;
+        font-size: $p-font-size;
         color: lighten($highlight-color, 10%);
       }
     }
@@ -204,11 +222,13 @@ body {
   }
 
   .comment_group {
-    padding-top: 3vh;
+    // padding-top: 3vh;
+    //padding-top: 5px;
     table td {
-    border: 0.5vw;
-    padding: 2vh;
-    padding: 1vw;
+    //border: 0.5vw;
+    // padding: 2vh;
+    // padding: 1vw;
+    padding: 5px;
     }
   }
 }
@@ -216,33 +236,33 @@ body {
 #two_lovers {
   
   h2 {
-    font-size: 18vw;
-    font-size: 19vh;
+    // font-size: 18vw;
+    // font-size: 19vh;
+    font-size: $h2-sx-font-size;
     font-family: $nav-font;
     color: white;
   }
   img {
-   
     max-height: 100%;
   }
 
   h5{ 
-    padding: 2vh;
-    font-size: 10vh;
-    font-size: 1.5vw;
+    //padding: 2vh;
+    // font-size: 10vh;
+    // font-size: 1.5vw;
+    font-size: $h5-font-size;
     color: $content-text-color;
   }
   .comment_group {
-    padding: 3vh;
+    //padding: 3vh;
+    //padding: 5px;
     
     ul {
       li {
         display: inline-block;
         list-style-type: none;
-        padding: 1vh;
-        a {
-
-        }
+        // padding: 1vh;
+        
       }
     }
   }
@@ -252,8 +272,9 @@ body {
 #the_realm  {
 
   h2 {
-    font-size: 10vh;
-    font-size: 10vw;
+    // font-size: 10vh;
+    // font-size: 10vw;
+    font-size: $h2-font-size;
     font-family: $nav-font;
     color: white;
   }
@@ -265,18 +286,20 @@ body {
   }   
 
   h5 {
-    font-size: 1vh;
-    font-size: 1.5vw;
+    // font-size: 1vh;
+    // font-size: 1.5vw;
+    font-size: $h5-font-size;
 
   }
   p {
-    font-size: 1.5em;
+    // font-size: 1.5em;
+    font-size: $p-font-size;
     color: black;
     font-family: $text-font;
   }
 
   .pictures_display {
-    padding-top: 2vh;
+    //padding-top: 2vh;
   }
   
   a {
@@ -288,23 +311,24 @@ body {
 
 #borges_obscurus {
   p {
-    font-size: 1.5em;
+    // font-size: 1.5em;
+    font-size: $p-font-size;
     color: black;
   }
 
   .extra_padding p {
-    padding-top: 30px;  
+    //padding-top: 30px;  
   }
 
   img {
     max-height: 100%;
     height: 300px;
-    width: 250px;
+    width: 200px;
   }
  
   a {
-    font-size: 5vw;
-    font-size: 4vh;
+    // font-size: 5vw;
+    // font-size: 4vh;
     font-family: $nav-font;
   }
 
@@ -314,7 +338,7 @@ body {
 
   .panel-footer {
     color: black;
-    font-size: 12px;
+    font-size: $p-font-size;
   }
 
   .thumbnail {
@@ -325,7 +349,8 @@ body {
 }
 
 #contact_page {
-  font-size: 1.5em;
+  // font-size: 1.5em;
+  font-size: $p-font-size;
 }
 
 
@@ -363,7 +388,6 @@ body {
   background: black;
   color: white;
   padding: $page-padding;
-  line-height: $line-height;
   letter-spacing: $letter-spacing;
   font-family: $text-font;
 
@@ -376,14 +400,16 @@ body {
   
   h4 {
     font-family: $header-font;
-    font-size: 7vw;
-    font-size: 6vh;
+    // font-size: 7vw;
+    // font-size: 6vh;
+    font-size: $h4-font-size;
+
   }
   
   .bottom-icons {
     float: center; 
     button {
-    padding: 0.5em;
+    // padding: 0.5em;
     }
   }
   
@@ -396,7 +422,8 @@ a:hover {
 
 .highlight {
   color: $highlight-color !important; 
-  font-size: 5vw;
-  font-size: 5vh;
+  // font-size: 5vw;
+  // font-size: 5vh;
+  font-size: 30%;
   color: black;
 }

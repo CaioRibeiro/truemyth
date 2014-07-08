@@ -1,18 +1,3 @@
-@media all and (max-width: 1200px) {
-  /* screen size until 1200px */
-  body {
-    font-size: 1.5em;
-    /* 1.5x default size */ } }
-@media all and (max-width: 1000px) {
-  /* screen size until 1000px */
-  body {
-    font-size: 1.2em;
-    /* 1.2x default size */ } }
-@media all and (max-width: 500px) {
-  /* screen size until 500px */
-  body {
-    font-size: 0.8em;
-    /* 0.8x default size */ } }
 body {
   font-size: 100%; }
 
@@ -28,13 +13,12 @@ body {
       display: inline-block;
       list-style-type: none; }
       #home nav ul li {
-        font-size: 4vw;
-        font-size: 4vh;
+        font-size: 30px;
         text-align: left; }
         #home nav ul li a {
           display: block;
           line-height: 120%;
-          padding: 1em 0.5em;
+          padding: 35px 5px;
           color: #999999; }
 
 .navbar {
@@ -43,12 +27,11 @@ body {
 
 #biography {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 1.7em;
+  font-size: 17px;
   color: #999999;
-  line-height: 160%;
   letter-spacing: 0.5px; }
   #biography h2 {
-    font-size: 11vw;
+    font-size: 160px;
     text-shadow: 0px 1px 1px #4d4d4d;
     color: white;
     font-family: "Just Another Hand", Helvetica, sans-serif; }
@@ -65,128 +48,105 @@ body {
 #sometime_in_august img {
   max-height: 100%; }
 #sometime_in_august h2 {
-  font-size: 10vw;
-  font-size: 15vh;
+  font-size: 140px;
   font-family: "Just Another Hand", Helvetica, sans-serif;
   color: white; }
 #sometime_in_august h5 {
-  font-size: 2vw;
-  font-size: 3vh;
-  padding: 4vh;
+  font-size: 20px;
+  padding: 15px;
   color: #999999; }
+#sometime_in_august p {
+  font-size: 17px; }
 #sometime_in_august .comment_group ul li {
   display: inline-block;
   list-style-type: none;
-  padding: 1vw;
-  padding: 0.5vh; }
+  padding: 2px; }
 #sometime_in_august blockquote p {
   font-family: "Cookie", Helvetica, sans-serif;
   text-align: center;
-  font-size: 4.5vw;
-  font-size: 6vh;
-  padding-top: 50px;
+  font-size: 50px;
+  padding-top: 30px;
   color: #999999; }
 #sometime_in_august blockquote footer {
   float: right; }
   #sometime_in_august blockquote footer a {
     font-family: futura;
-    font-size: 16px;
+    font-size: 17px;
     color: white; }
 
 #letters_from_monte h2 {
   font-family: "Just Another Hand", Helvetica, sans-serif;
-  font-size: 18vw;
-  font-size: 18vh;
+  font-size: 140px;
   color: white; }
 #letters_from_monte h5 {
-  font-size: 4vw;
-  font-size: 4vh;
-  padding-top: 5vh;
+  font-size: 30px;
+  padding: 10px;
   color: #999999; }
 #letters_from_monte blockquote p {
   font-family: "Cookie", Helvetica, sans-serif;
   text-align: center;
-  font-size: 5vh;
-  font-size: 7vw;
+  font-size: 70px;
   color: #999999; }
 #letters_from_monte blockquote footer {
   float: right; }
   #letters_from_monte blockquote footer a {
     font-family: futura;
-    font-size: 16px;
+    font-size: 17px;
     color: white; }
 #letters_from_monte span {
   padding-top: 6vh; }
-#letters_from_monte .comment_group {
-  padding-top: 3vh; }
-  #letters_from_monte .comment_group table td {
-    border: 0.5vw;
-    padding: 2vh;
-    padding: 1vw; }
+#letters_from_monte .comment_group table td {
+  padding: 5px; }
 
 #two_lovers h2 {
-  font-size: 18vw;
-  font-size: 19vh;
+  font-size: 110px;
   font-family: "Just Another Hand", Helvetica, sans-serif;
   color: white; }
 #two_lovers img {
   max-height: 100%; }
 #two_lovers h5 {
-  padding: 2vh;
-  font-size: 10vh;
-  font-size: 1.5vw;
+  font-size: 20px;
   color: #999999; }
-#two_lovers .comment_group {
-  padding: 3vh; }
-  #two_lovers .comment_group ul li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 1vh; }
+#two_lovers .comment_group ul li {
+  display: inline-block;
+  list-style-type: none; }
 
 #the_realm h2 {
-  font-size: 10vh;
-  font-size: 10vw;
+  font-size: 160px;
   font-family: "Just Another Hand", Helvetica, sans-serif;
   color: white; }
 #the_realm h4 {
   color: black;
   font-family: "Just Another Hand", Helvetica, sans-serif; }
 #the_realm h5 {
-  font-size: 1vh;
-  font-size: 1.5vw; }
+  font-size: 20px; }
 #the_realm p {
-  font-size: 1.5em;
+  font-size: 17px;
   color: black;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
-#the_realm .pictures_display {
-  padding-top: 2vh; }
 #the_realm a {
   z-index: 100; }
 
 #borges_obscurus p {
-  font-size: 1.5em;
+  font-size: 17px;
   color: black; }
-#borges_obscurus .extra_padding p {
-  padding-top: 30px; }
 #borges_obscurus img {
   max-height: 100%;
   height: 300px;
-  width: 250px; }
+  width: 200px; }
 #borges_obscurus a {
-  font-size: 5vw;
-  font-size: 4vh;
   font-family: "Just Another Hand", Helvetica, sans-serif; }
 #borges_obscurus .panel-body {
   background: white; }
 #borges_obscurus .panel-footer {
   color: black;
-  font-size: 12px; }
+  font-size: 17px; }
 #borges_obscurus .thumbnail {
   background: black;
   border: none; }
 
 #contact_page {
-  font-size: 1.5em; }
+  font-size: 17px; }
 
 .vidoe_pages {
   background: black;
@@ -215,7 +175,6 @@ body {
   background: black;
   color: white;
   padding: 80px 25px;
-  line-height: 160%;
   letter-spacing: 0.5px;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
   .content_pages h2 {
@@ -223,18 +182,14 @@ body {
     color: #ff9900; }
   .content_pages h4 {
     font-family: futura;
-    font-size: 7vw;
-    font-size: 6vh; }
+    font-size: 40px; }
   .content_pages .bottom-icons {
     float: center; }
-    .content_pages .bottom-icons button {
-      padding: 0.5em; }
 
 a:hover {
   text-decoration: none; }
 
 .highlight {
   color: white !important;
-  font-size: 5vw;
-  font-size: 5vh;
+  font-size: 30%;
   color: black; }
